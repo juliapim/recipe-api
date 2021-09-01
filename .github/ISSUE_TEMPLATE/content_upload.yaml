@@ -2,7 +2,7 @@
 name: Content Upload
 description: File a bug report
 body:
-  - type: markdown
+- type: markdown
     attributes:
       value: |
         Before opening a content report, please search for the behaviour in the existing issues. 
@@ -10,7 +10,7 @@ body:
         ---
         
         Thank you for taking the time to file a this report. To address this issue as fast as possible, we need some information.
-  - type: input
+- type: input
   id: title
   attributes:
     label: Tittle of the document
