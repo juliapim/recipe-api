@@ -11,26 +11,30 @@ body:
         
         Thank you for taking the time to file a this report. To address this issue as fast as possible, we need some information.
   - type: input
-    id: title
-    attributes:
-      label: Title of document
-      description: "Title of document"
-    validations:
-      required: true  
-  - type: input
-    id: url
-    attributes:
-      label: Url where the document can be found-
-      description: "Please provide the full url of your content to be uploaded."
-     
-    validations:
-      required: true
-  - type: input
-    id: metadata
-    attributes:
-      label: Metadata Link
-      description: "Please provide, if available, the url to the metadata."
-     
-   
- 
- 
+  id: title
+  attributes:
+    label: Tittle of the document
+    description: Please insert here the title of the document.
+  validations:
+    required: true
+- type: input
+  id: metadata
+  attributes:
+    label: Metadata
+    description: Please insert here, if available, the metadata url of the document.
+  validations:
+    required: false
+ - type: input
+  id: metadata
+  attributes:
+    label: Metadata
+    description: Please insert here, if available, the metadata url of the document.
+    validations: 
+     required: false
+- type: input
+  id: url
+  attributes:
+    label: url
+    description: Please provide the url or other identifier for the document.
+  validations:
+    required: true
