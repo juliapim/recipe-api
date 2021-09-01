@@ -24,13 +24,6 @@ body:
     description: Please insert here, if available, the metadata url of the document.
   validations:
     required: false
- - type: input
-  id: metadata
-  attributes:
-    label: Metadata
-    description: Please insert here, if available, the metadata url of the document.
-    validations: 
-     required: false
 - type: input
   id: url
   attributes:
