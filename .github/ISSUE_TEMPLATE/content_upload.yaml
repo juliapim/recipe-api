@@ -2,8 +2,7 @@
 name: Content Upload
 description: File a bug report
 body:
-  - type: markdown
-   
+  
   - type: input
     id: title
     attributes:
