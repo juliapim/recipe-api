@@ -1,6 +1,6 @@
 
 name: Content Upload
-description: File a bug report
+description: File a content report
 body:
   
   - type: input
