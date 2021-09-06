@@ -3,10 +3,7 @@ name: Content Upload
 description: File a bug report
 body:
   - type: markdown
-    attributes:
-     
-        
-        Thank you for taking the time to file a this report. To address this issue as fast as possible, we need some information.
+   
   - type: input
     id: title
     attributes:
