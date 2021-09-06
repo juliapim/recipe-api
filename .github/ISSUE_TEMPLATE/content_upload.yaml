@@ -19,10 +19,10 @@ body:
     validations:
       required: true      
   - type: input
-    id: url
+    id: keyword
     attributes:
-      label: Url where the document can be found
-      description: "Please provide the keywords for this document. They must be separated by semi-colon"
+      label: Keyword
+      description: "Please provide the keywords for this document. They must be separated by a semi-colon."
      
     validations:
       required: true
